@@ -1,0 +1,107 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-size: 1.7em;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    font-family: 'Droid Serif', serif;
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+.col-1-4 {
+  width: 25%;
+}
+.col-1-8 {
+  width: 12.5%;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-nav {
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.col-1-8 > div:first-of-type {
+    margin-top: 100px;
+}
+
+.section {
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.section-header {
+    height: 20%;
+    margin-bottom: 3px;
+}
+
+.section-body {
+    height: 80%;
+}
+
+.main-header {
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.article-info {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.article {
+    margin-bottom: 10px;
+}
+
+.main-ad {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.first-priority {
+    background: #262626;
+}
+
+.second-priority {
+    background: #4d4d4d;
+}
+
+.third-priority {
+    background: #808080;
+}
+
+.fourth-priority {
+    background: #bfbfbf;
+}
+
+.fifth-priority {
+    background: #e6e6e6;
+}
